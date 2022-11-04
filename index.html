@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e340aba0c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    
+    
+    <div class="container">
+        <nav>
+            <img src="Images/SATWK (1).png" class="logo">
+    
+              
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    <div class="header-text">
+       
+        <p>Hi!<p>
+
+        <p>I'm Satwika from India. <p>
+
+    </div>
+    
+    </div>
+</div>
+<br>
+<br>
+<!---About-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1> 
+                <br>
+<p>I am an tech enthusiast. I am always curious about learning new technologies.And after learning I always do a project on the particular technology. 
+    Worked on technologies like C/ C++, Python, Amazon Web Services (AWS), Git, JavaScript etc.I am an Student Peer Mentor in Machine learning where we work on various projects on Machine learning with my peers.</p>    
+                  
+    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                   
+                  
+                  </div>
+                  <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Coding </span><br>C++,Python</li>
+                        <li><span>Cloud Skills</span><br>AWS</li>
+                        <li><span>Technologies</span><br>AI/ML</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2020-2024 </span><br>BTech from KL University</li>
+                        <li><span>2018-2020</span><br>Inter from Sri Bhavishya</li>
+                    </ul>
+                  </div>
+                 </div>
+        
+        </div>
+    </div>
+</div>
+<!-----Tech---------->
+<div id="technology">
+    <div class="container">
+        <h1 class="sub-title">My Learnings</h1>
+        <br>
+        <p>I am familiar with a variety of programming languages and tech stacks through my learning experience.</p>
+        <div class="technology-list">
+<div>
+    <i class="fa-brands fa-css3"></i>
+    <h2>Frontend Technologies</h2>
+    <p>Experience with HTML,CSS, JavaScript (React js)</p>
+    <a href="#">Learn more</a>
+</div>
+<div>
+    <i class="fa-brands fa-js"></i>
+    <h2>Backend Technologies</h2>
+    <p>Experience with HTML,CSS,JavaScript (Node js, SQL)</p>
+    <a href="#">Learn more</a>
+</div>
+<div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Languages</h2>
+    <p>Experience with C++,Java,JavaScript</p>
+    <a href="#">Learn more</a>
+</div>
+        </div>
+    </div>
+</div>
+<!----Projects-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/phose animator.png"> 
+            <div class="layer">
+                <br>
+                <h3>Phose Animator</h3>
+                <br>
+                <p>This app</p>
+                <a href="https://github.com/SatwikaKadiyala"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="Images/video chat app.jpg"> 
+                <div class="layer">
+                    <br>
+                    <h3>Video chat app</h3>
+                    <br>
+                    <p>This app</p>
+                    <a href="https://github.com/SatwikaKadiyala"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/library management system.png"> 
+                <div class="layer">
+                    <br>
+                    <h3>Library management system</h3>
+                    <br>
+                    <p>This app</p>
+                    <a href="https://github.com/SatwikaKadiyala"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-----contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact me</h1> 
+              <p> <i class="fa-solid fa-paper-plane"></i>satwika.kadiyalaa@gmail.com</p> 
+              <p> <i class="fa-solid fa-phone"></i> 9652395969</p>
+              <div class="social-icons">
+                <a href="https://github.com/SatwikaKadiyala"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kadiyala-lakshmi-sai-satwika-8a18741b5/"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="Images/SATWIKA_RESUME_UPDATED.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" cols="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                   
+                </form>
+              <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+         <p> Copyright @ Satwika. Made with <i class="fa-solid fa-heart"></i>SatwikaKadiyala</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw4WnkdA4VCHYtQpfOezXT3Wt8_N3JPupFxWBfJvsTtXF1B-e99cfwP1eQcF-7m9BsrHA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfully"
+    setTimeout(function(){
+            msg.innerHTML=""
+        },5000 )
+        form.reset()
+    })
+    
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+    
